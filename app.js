@@ -49,7 +49,7 @@ let questionarr = [
     question:
       "Which of the following methods is used to access HTML elements using Javascript?",
     options: ["getElementById()", "getElementByClassName()", "Both", "None"],
-    corans: "34",
+    corans: "Both",
   },
   {
     number: 6,
