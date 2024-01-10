@@ -40,21 +40,21 @@ let questionarr = [
   {
     number: 4,
     question:
-      "Which of the following keywords is used to define a variable in Javascript?",
+      "Which of the following keywords is used to define a variable in Js?",
     options: ["var", "let", "both above", "None"],
     corans: "both above",
   },
   {
     number: 5,
     question:
-      "Which of the following methods is used to access HTML elements using Javascript?",
+      "Which of the following methods is used to access HTML elements using Js?",
     options: ["getElementById()", "getElementByClassName()", "Both", "None"],
     corans: "Both",
   },
   {
     number: 6,
     question:
-      "Which of the following can be used to display data in some form using Javascript?",
+      "Which of the following can be used to display data in some form using Js?",
     options: [
       "Document.write()",
       "Window.alert()",
@@ -72,13 +72,13 @@ let questionarr = [
   {
     number: 8,
     question:
-      "What keyword is used to declare an asynchronous function in Javascript?",
+      "What keyword is used to declare an asynchronous function in Js?",
     options: ["async", "await", "setTimeout", "none"],
     corans: "async",
   },
   {
     number: 9,
-    question: "How to stop an interval timer in Javascript?",
+    question: "How to stop an interval timer in Js?",
     options: ["clearTimer", "clearInterval", "stopInterval", "none"],
     corans: "clearInterval",
   },
