@@ -94,6 +94,7 @@ let questionarr = [
 let wrongopt = (x) => {
   x.style.backgroundColor = "#F78CA2";
   text.innerText = "<Its wrong Bro ❌/>.. <try again>";
+  setTimeout(next , 400);
 };
 // Function to declare correct option
 let correctopt = (x) => {
@@ -101,6 +102,7 @@ let correctopt = (x) => {
   scr += 1;
   score.innerText = scr;
   text.innerText = "<You got it correct 😎/>..";
+  x.onclick = next;
 };
 //Function for updating question , options 
 const update = (Q) => {
